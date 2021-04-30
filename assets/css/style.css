@@ -51,10 +51,35 @@ h1, h2 {
 .active {
     border-bottom:  1px solid #3a3a3a;
 }
+/* header styling rules end*/
+
 #hero-image {
-    background-image: url("../images/hero-image.webp") 
-    no-repeat 
-    center center;
     width: 100%;
     height: 600px;
+    background-image: url('../images/hero-image.webp');
+    background-repeat: no-repeat;
+    background-position: center center; 
+    animation: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/hero-image.webp');
+    overflow: hidden;
+}
+
+/* creates zoom effect for hero image*/
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.1);
+
+    }
 }
