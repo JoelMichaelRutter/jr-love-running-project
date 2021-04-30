@@ -203,3 +203,22 @@ hr {
 #times div h2 {
     color: #fafafa;
 }
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.social-networks li {
+    display: inline-block;
+    margin: 0 100px;
+    font-size: 250%;
+}
+
+.social-networks a {
+    color: #3a3a3a;
+}
