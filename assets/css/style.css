@@ -5,6 +5,7 @@ Heading - font-family: 'Oswald', sans-serif;*/
     padding: 0;
     margin: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -176,5 +177,29 @@ hr {
     background: url('../images/ethos-center-image.jpeg');
     border-radius: 50%;
     height: 100%;
-    
+
+}
+
+#times {
+    background-image: url('../images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+#times div h2 {
+    color: #fafafa;
 }
