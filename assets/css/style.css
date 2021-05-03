@@ -265,4 +265,15 @@ footer {
 hr {
     display: none;
 }
-}
+} 
+
+/* media query for medium screen sizes from 950px wide and down*/
+@media screen and (max-width: 950px) {
+     #menu {
+        clear: left;
+        float: left;
+        margin: 0 0 20px 1vw;
+        line-height: 25px;
+
+    }
+} 
