@@ -265,6 +265,13 @@ footer {
 hr {
     display: none;
 }
+
+#times > div {
+    clear: both;
+    height: 150px;
+    padding: 0;
+    width: 100%;
+}
 } 
 
 /* media query for medium screen sizes from 950px wide and down*/
